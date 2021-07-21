@@ -1,1 +1,2 @@
-document.write("hi " + fname );
+/*document.write("hi " + fname );*/
+console.log(fname);
