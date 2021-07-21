@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>bakr travel agency</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script>
+     function result() {
+          var numberValue = document.getElementById("txtInput").value;
+     
+         console.log("The value=" + parseInt(numberValue));   
+       }
 </head>
 <body>
     <div>
@@ -30,11 +36,8 @@
         <h2 class="section-heading">HOME</h2>
     </a>
     <h3>welcome</h3>
-    <form action="/action_page.js">
-      <label for="fname">First name:</label>
-        <input type="text" id="fname" name="fname"><br><br>
-        <input type="submit" value="Submit">
-    </form>
+    <input type="text" id="txtInput" placeholder="Enter a number">
+   <button type="button" onclick="result();">GetANumber</button>
     <p>
         Bkr Tour and Travel Agency is a service rendering private organization licensed by the Federal Democratic Republic of Ethiopia, Ministry of Trade.  It is a tour operator company founded in 2006, with head office in the Ethiopian capital city, Addis Ababa. It is the leading and reliable Tour, Travel and Car Rental Company. It is one of the oldest and most experienced tour operators in Ethiopia, sharing an extensive knowledge about the country, its culture, its nature and its people. It is internationally known for its flexibility and reliability, its caring staff and its modern and well maintained vehicles and equipments. It has been awarded various certificates from different organizations for its reliable and honest services. It has also been established by tourism professionals that have immense and long years of experience in providing excellent and reliable ground tour services. Our firm runs tour for those travelers who want to get best services but also insights in to the cultures and customs of the countries they visit.     </p>
     <img src="img/03.png" height="500px" width="auto">
